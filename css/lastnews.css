@@ -1,0 +1,68 @@
+aside .menu-left table tr .active
+{
+    background-color: #CCC;
+    border-bottom: 3px solid #4C0202;  
+}
+nav ul li.dropdown .dropdown-content a.active
+{
+    background-color: darkgray;
+    color:black;
+    border-bottom: 3px solid #CCC;
+}
+aside figure
+{
+    margin-top: 50px;
+    text-align: right;
+}
+aside figure img
+{
+    margin-right: 0px;
+}
+/*start  section*/
+.left
+{
+    width: 10%
+}
+.main-peg  .section
+{
+    width: 65%;
+    margin-right: 2%;
+    border: 3px solid #4c0202;
+   
+    margin: 15px 17px 80px 23px;
+}
+.main-peg  .section header h3
+{
+   text-align: center;
+    color: #4c0202;
+    font-weight: bold;
+    
+    
+}
+.main-peg  .section h3:before
+{
+    content: url("../image/po.bmp");;
+    
+}
+.main-peg  .section h3:after
+{
+    content: url("../image/po.bmp");;
+    
+}
+.main-peg  .section ul
+{
+    list-style-image: url(../image/po.bmp);
+    padding-left: 30px;
+    margin-bottom: 60px;
+}
+.main-peg  .section ul li
+{
+    color:#4c0202;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 10px;
+    line-height: 1.7
+    
+}
+/*end section*/

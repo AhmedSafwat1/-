@@ -1,0 +1,369 @@
+/* start main rule*/
+*
+{
+     box-sizing: border-box;
+    -webkit- box-sizing: border-box;
+    -moz- box-sizing: border-box;
+    -o- box-sizing: border-box;
+    -ms- box-sizing: border-box;
+}
+body
+{
+    background-color: #4C0202;
+    direction: rtl;
+    
+}
+div.container
+{
+    width: 1000px;
+    background-color: #FFF;
+    margin: 20px auto;
+    
+}
+.clear-fix
+{
+    clear: both;
+}
+/*end main rule*/
+/*start heder*/
+.banner
+{
+   height: 81.172px; 
+}
+header .banner img
+{
+    width: 100%;
+}
+header .main-header
+{
+    width: 100%;
+    height: 300px;
+    background: url(../image/header.jpg) no-repeat ;
+    
+    background-size: cover;
+   
+    
+    
+}
+/*end header*/
+/*start nav*/
+nav{
+    box-sizing: border-box;
+}
+nav ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #111;
+    min-height: 40px;
+    font-weight: bold;
+    
+    
+}
+nav ul li
+{
+    display: inline-block;
+    min-height: 40px;
+    text-align: center;
+    transition:background .4s ease-in-out;
+    color: black;
+    
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px;
+    transition: color 0s
+}
+nav ul li.dropdown
+{
+    position: relative;
+   
+    
+}
+nav ul li.dropdown .dropdown-content
+{
+   
+    min-width: 150px;
+    position: absolute;
+     display: none;
+    
+    
+}
+nav ul li.dropdown .dropdown-content a
+{
+   display: block;
+   background-color: #999;
+   text-align: right;
+    
+    
+}
+nav ul li:hover
+{
+    background-color:#333;
+    color: #000;
+}
+nav ul li a:hover
+{
+    color:black;
+    border-bottom: 3px solid #CCC;
+    
+}
+nav ul li:hover .dropdown-content 
+{
+    display: block;
+   
+    
+}
+nav ul li.dropdown .dropdown-content a:hover
+{
+    background-color: darkgray;
+}
+/*end nav*/
+/*start main page*/
+
+aside,.section,.left
+{
+    float: left;
+    margin-top: 15px;
+}
+aside
+{
+   width: 18%;
+   margin-left: 2%;
+}
+.left
+{
+    
+    width: 22%;
+    margin-right: 1%;
+    
+}
+.section
+{
+    margin-top: 30px;
+    width: 57%;
+   
+}
+.left .form
+{
+    border: 3px solid #4C0202;
+     border-radius: 5px;
+    height: 250px;
+    margin-left: 5px;
+    text-align: center;
+    padding-bottom: 0;
+}
+.left .form input
+{
+    display: block;
+    width: 90%;
+    margin:  0px 5% 10px ;
+     
+}
+.left .form input:focus
+{
+    border: 2px solid #4C0202;
+}
+.left .form input[type="submit"]
+{
+    width: 100px;
+    height: 30px;
+    margin-right: 60px;
+    margin-bottom: 45px;
+    border: none;
+    transition:border .3s ease-in-out,width .3s ease-in-out,height .3s ease-in-out;
+}
+.left .form input[type="submit"]:hover
+{
+     border: 3px solid #4C0202;
+    color: #4C0202;
+    width : 105px;
+    height: 35px;
+}
+.left .intrest 
+{
+    border: 3px solid #4C0202;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.left .intrest header
+{
+    padding-right: 15px;
+}
+
+aside .menu-left,.left .intrest .menu-right
+{
+   
+    width: 100%;
+    
+}
+aside table,.left table
+{
+    border-radius: 5px;
+    padding: 0 5px 40px;
+         
+}
+.left table
+{
+    width: 100%;
+    padding-bottom: 5px;
+}
+aside table
+{
+    width:100%;
+    margin-right:10px;
+    border: 3px solid #4C0202;
+}
+aside .menu-left table tr td,.left .menu-right table tr td
+{
+    padding-bottom:10px;
+    transition: background-color 1s ease-in-out;
+}
+aside .menu-left table tr td a,.left .menu-right table tr td a
+{
+    text-decoration: none;
+    color:#4C0202;
+    font-weight: 800px;
+}
+aside .menu-left table tr:hover td,.left .menu-right table tr:hover td
+{
+    background-color: #CCC;
+    border-bottom: 3px solid #4C0202;
+}
+aside .menu-left table tr:hover a
+{
+    color: #333;
+}
+aside figure
+{
+    margin-right: 20px;
+    text-align: center;
+}
+aside figure img
+{
+    width: 145px;
+    margin-right: 20px
+}
+.section article
+{
+    float: left;
+    border: 3px solid #4C0202;
+    border-radius: 5px;
+    
+}
+.first
+{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.first figure ,.secnd figure
+{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    
+}
+.first figure figcaption,.secnd figure figcaption
+{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    
+}
+.first figure figcaption a
+{
+    text-decoration: none;
+    font-weight: boldl
+    
+}
+.first figure figcaption a:hover
+{
+    color: red;
+}
+.first figure img
+{
+    margin-bottom: 5px;
+}
+.first p
+{
+    padding-right: 5px;
+    line-height: 1.7
+}
+.secnd
+{
+    width: 40%;
+    margin-right: 1%;
+}
+.secnd figure img
+{
+    margin-top: 10px;
+}
+.third
+{
+    width: 59%;
+    padding: 5px;
+}
+.third header
+{
+    padding-right: 15px;
+    color: #4C0202;
+    margin-bottom: 20px;
+}
+.third .news p
+{
+    padding: 5px;
+    font-weight: 800px;
+    line-height: 1.7;
+}
+.third .news p a
+{
+    text-decoration: none;
+    
+}
+.third .news p a:hover
+{
+    color: red;
+}
+/*end main page*/
+/*start footer*/
+footer
+{
+    background-color: #4C0202;
+}
+footer nav  ul
+{
+    background-color: #4C0202;
+    margin-right: 10px;
+}
+footer nav  ul li:hover
+{
+    background-color:rosybrown
+}
+footer .end p
+{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px
+}
+footer .end p:last-of-type
+{
+    margin-top: 5px
+}
+footer .end p:last-of-type i
+{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+footer .end p:last-of-type i:hover
+{
+    color:#FFF;
+}
+
+/*end footer*/
